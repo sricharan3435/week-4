@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="modal">
+      <div id="modal-content">
+        <span id="close-button">×</span>
+        <h2>How to Use</h2>
+        <ul>
+          <li>
+            To add a task, type the task into the input field and click "Add
+            Task".
+          </li>
+          <br />
+          <li>
+            To edit a task, double-click on the task and enter the new text.
+          </li>
+          <br />
+          <li>To delete a task, click the "Delete" button next to the task.</li>
+          <br />
+          <li>
+            To mark a task as completed or uncompleted, click the task text.
+          </li>
+        </ul>
+        <h3 class="team-todo">- Team To-Do</h3>
+      </div>
+    </div>
+
+    <h1>My To-Do List</h1>
+    <input type="text" id="new-task" placeholder="New Task" />
+    <button id="add-task-button">Add Task</button>
+    <div id="task-list"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
